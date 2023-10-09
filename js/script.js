@@ -133,3 +133,81 @@ console.log ('biglietto costo', biglietto);
 
 
 */
+
+/*
+let oggi = new Date();
+console.log(oggi)
+
+*/
+
+/*
+esempio di funzione
+
+let mioDiv = document.getElementById ('psw');
+console.dir (mioDiv); //eseguibile di un contenuto di testo o tag html 
+
+pippo(); //nome della funzione 
+function pippo() { //definizione della funzione, il suo contenuto 
+  console.log ('sono dentro la funzione');
+}
+
+*/
+
+/*
+
+//chiedi ad un utente due parole 
+//verifica quale delle due è più lunga
+//stampa in console un messaggio appropriato a seconda di quale parola è più lunga 
+
+let parola_1 = prompt('inserisci una parola');
+let parola_2 = prompt("inserisci un'altra parola");
+
+if (parola_1.length > parola_2.length) {
+  console.log('la prima parola è più lunga!');
+} else if (parola_2.length > parola_1.length) {
+  console.log ('la seconda parola è più lunga!');
+} else {
+  console.log ('le parole hanno la stessa lunghezza!');
+}
+
+//una variabile che ha un valore, sarà sempre riconosciuta dal sistema come true!!!!
+//valori come 0, NaN, una stringa vuota, undefined e null saranno sempre etichettati come false!!!!
+
+*/
+
+
+
+
+// chiedi all utente con 2 prompt gli anni di due persone e comunica quale delle due è più grande 
+
+/*
+let mioDiv = document.getElementById ('psw');
+
+let age_1 = parseInt(prompt("inserisci l'età della prima persona"));
+let age_2 = parseInt(prompt("inserisci l'età della seconda persona"));
+*/
+/*parseint in quanto mi serve che il contenuto sia convertito
+in numero e l'utente non mi inserisca un nome! in caso venga inserito
+un nome il console log darà come risultato un NaN*/
+
+
+/*
+console.log ('prima', age_1, 'seconda', age_2);
+
+if (isNaN(age_1) || isNaN(age_2)) { //isNaN è utlizzato per dire "nel caso in cui il valore non sia un numero" quindi un NaN
+  mioDiv.innerHTML = 'inserisci dei numeri e non delle lettere !'; //scrivi in miodiv (quindi il div con id psw)
+  window.location.reload(); //comando per resettare la pagina (in questo caso nel caso fallisca le condizioni!)
+}
+
+if (age_1 > age_2) {
+  mioDiv.innerHTML = 'la prima persona è più grande';
+} else if (age_1 < age_2) {
+  mioDiv.innerHTML = 'la seconda persona è più grande';
+} else {
+  mioDiv.innerHTML = 'entrambe le persone hanno la stessa età';
+}
+*/
+
+
+
+
